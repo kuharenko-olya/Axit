@@ -104,11 +104,11 @@ header .wrapper p {
     color: #fff;
     border-radius: 1px;
     display: inline-block;
-    padding: 9px 28px;
+    padding: 9px 26px;
     border: 2px solid;
     border-radius: 1px;
     transition: 0.2s;
-    margin-top: 39px;
+    margin-top: 13px;
     letter-spacing: -0.6px;
     font-family: "Open Sans";
 }
@@ -455,7 +455,6 @@ section.why-this-awesome {
     position: relative;
     margin-top: 31px;
     padding-bottom: 17px;
-    padding-right: 20px;
     margin-bottom: 29px;
     letter-spacing: -1.1px;
 }
@@ -532,124 +531,71 @@ p.indent {
 }
 
 section.pricing {
-    padding-top: 62px;
-    padding-bottom: 97px;
+    padding-top: 56px;
+    padding-bottom: 83px;
     background-color: #f5f5f5;
 }
 
-.container-flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.texts > div > h3 {
+    margin-top: 32px;
+    letter-spacing: -0.5px;
 }
 
 p.margin {
-    margin-bottom: 80px;
+    margin-bottom: 78px;
     margin-top: 15px;
     letter-spacing: -0.8px;
-}
-
-.card {
-    width: 331px;
-    align-self: flex-end;
-}
-
-.block {
-    padding: 10px 0px;
-    border: 1px solid #fff;
-    background-color: #333333;
-}
-
-.card > .block > .title {
-    color: #fff;
-    font-family: "Open Sans";
-    font-size: 20px;
-    font-weight: 700;
 }
 
 .align-center {
     text-align: center;
 }
 
-
-.card > .block > .price {
-    color: #fff;
-    font-size: 30px;
-    font-family: Raleway;
-    font-weight: 600;
-}
-
-.card > .block > .price > span {
-    color: #fff;
-    font-size: 73px;
-    font-family: Raleway;
-    font-weight: 700;
-}
-
-.card > .block > .description {
-    color: #616161;
-    font-family: "Open Sans";
-    font-size: 14px;
-    font-style: italic;
-}
-
-.white-block {
-    padding: 11px;
-    border: 1px solid #fff;
-    background-color: #fff;
-    border-bottom: 3px solid #f5f5f5;
-}
-
-.top-border {
-    border-top: 5px solid #ff8b38;
-
-}
-
-.white-block > div {
-    color: #86878b;
-    font-family: "Open Sans";
-    font-size: 14px;
-    font-weight: 400;
-    text-transform: uppercase;
-}
-
-.bg-color {
-    background-color: #ff8b38;
-}
-
-.white-block > .other-color {
-    color: #fff;
-}
-
 section.our-customers {
-    padding-top: 61px;
-    padding-bottom: 79px;
+    padding-top: 70px;
+    padding-bottom: 91px;
+}
+
+section.our-customers .info-centr > div > h3 {
+    padding-bottom: 16px;
+    letter-spacing: -1.1px;
+    margin-bottom: 32px;
+}
+
+.info-centr p {
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 5px;
+    letter-spacing: 0.2px;
 }
 
 .flex {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 80px;
+    margin-top: 48px;
+    padding: 0 35px;
 }
 
 .comment-item {
-    width: 273px;
+    width: 257px;
 }
 
 .comment-text {
     background: #f5f5f5;
-    border-radius: 10px;
     padding: 20px;
     position: relative;
     font-style: italic;
+    padding-left: 7px;
+    padding-right: 11px;
+    padding-bottom: 29px;
 }
 
 .comment-text::after {
     content: '';
     position: absolute;
     /* Абсолютное позиционирование */
-    left: 20px;
+    left: 22px;
     bottom: -20px;
     /* Положение треугольника */
     border: 10px solid transparent;
@@ -658,16 +604,21 @@ section.our-customers {
     /* Добавляем треугольник */
 }
 
+.comment-item:last-child {
+    margin-right: 21px;
+}
+
 .avatar img {
-    width: 70px;
-    height: 70px;
+    width: 68px;
+    height: 68px;
     border-radius: 33px;
 }
 
 .initials h2 {
     font-size: 20px;
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 6px;
+    margin-top: 4px;
 }
 
 .author {
@@ -678,22 +629,20 @@ section.our-customers {
 }
 
 .initials {
-    padding: 17px;
+    padding: 8px 13px;
 }
 
 section.gorgeous-prototypes {
     background-color: grey;
-    padding: 49px 0;
-}
-
-.info-centr p {
-    font-family: Raleway;
-    font-size: 16px;
-    font-weight: 300;
+    padding: 60px 0;
 }
 
 .color-desc {
     color: #fff;
+}
+
+section.gorgeous-prototypes .info-centr > div > h2 {
+    letter-spacing: -0.8px;
 }
 
 .info-centr h2 {
@@ -702,6 +651,14 @@ section.gorgeous-prototypes {
     padding-bottom: 26px;
     font-size: 36px;
     margin-bottom: 26px;
+}
+
+section.gorgeous-prototypes .info-centr > div > p {
+    padding-bottom: 5px;
+    letter-spacing: -0.4px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .sub-title-center::after {
@@ -716,32 +673,47 @@ section.gorgeous-prototypes {
     margin: 0 auto;
 }
 
+section.gorgeous-prototypes .sub-title-center::after{
+    width: 56px;
+}
+
 section.contact-us {
     padding-top: 63px;
-    padding-bottom: 75px;
+    padding-bottom:81px;
 }
 
 .inputs-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 81px;
-    padding-left: 9px;
+    margin-top: 65px;
+    padding-left: 25px;
+}
+
+
+section.contact-us .info-centr > div > h3 {
+    margin-top: 36px;
+    letter-spacing: -0.5px;
 }
 
 .inputs-item {
     width: 527px;
-    padding: 18px 0px;
+    padding: 14px 0px;
 }
 
 .inputs-item input {
     width: 150px;
     border: none;
+    padding-top: 11px;
+}
+
+input.name{
+    padding: 0;
 }
 
 textarea {
     border: none;
-    padding: 0px 23px;
+    padding: 3px 26px;
 }
 
 button {
@@ -757,7 +729,7 @@ button {
     text-decoration: none;
     color: #fff;
     background-color: #ff9b51;
-    padding: 15px 23px;
+    padding:10px 18px;
     bottom: 0;
     border-radius: 3px;
     font-family: "Open Sans";
@@ -767,13 +739,12 @@ button {
 
 .center-button {
     text-align: center;
-    padding-top: 25px;
-    padding-right: 13px;
+    padding-top: 35px;
 }
 
 footer {
     background-color: #000;
-    padding: 12px 0px;
+    padding: 5px 0px;
 
 }
 
@@ -792,13 +763,14 @@ footer {
 .footer-container {
     display: flex;
     justify-content: center;
+    margin-top: 14px;
 }
 
 .footer-icon a {
     text-decoration: none;
     color: #cccccc;
     font-size: 20px;
-    padding: 4px 16px;
+    padding: 2px 14px;
 }
 
 .footer-icon {
@@ -839,4 +811,133 @@ footer {
 
 .tab.active {
     background-color: #ff8b38;
+}
+
+.pricing-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.price-element {
+    text-align: center;
+    width: 326px;
+    align-self: flex-end;
+}
+
+.price-benefits {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.price-benefits li {
+    padding: 0;
+}
+
+.price-type {
+    background-color: #333333;
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 29px;
+    padding: 15px 0;
+    padding-bottom: 13px;
+}
+
+.price-value {
+    background-color: #333333;
+    border-top: 2px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding-top: 14px;
+}
+
+.price-value span:first-child {
+    color: #fff;
+    font-family: Raleway;
+    font-size: 29px;
+    line-height: 52px;
+    font-weight: 700;
+
+}
+
+.price-value span:last-child {
+    color: #fff;
+    font-family: Raleway;
+    font-size: 86px;
+    line-height: 80px;
+    font-weight: 700;
+    letter-spacing: -1.8px;
+}
+
+.price-description {
+    background-color: #333333;
+    color: #818181;
+    font-family: "Open Sans - Semibold";
+    font-style: italic;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    border-bottom: 5px solid #ff8b38;
+    padding-top: 9px;
+    letter-spacing: 1px;
+}
+
+.price-element:nth-child(2) .price-description {
+    border-bottom: none;
+    padding-top: 10px;
+    padding-bottom: 15px;
+
+}
+
+.price-element:nth-child(2) .price-value {
+    padding-top: 8px;
+}
+
+.price-element:nth-child(2) .price-type {
+    background-color: #333333;
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: -0.6px;
+    padding: 18px 0;
+    padding-bottom: 20px;
+}
+
+.price-benefits li {
+    background-color: #ffffff;
+    color: #86878b;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 8px 0;
+    letter-spacing: -0.5px;
+    padding-bottom: 6px;
+}
+
+.price-benefits li:last-child {
+    border: none;
+}
+
+.price-popular {
+    background-color: #ff8b38;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    padding: 8px 0;
+    border-top: 1px solid #f5f5f5;
+    padding-bottom: 10px;
 }
