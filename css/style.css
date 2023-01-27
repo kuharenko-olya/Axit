@@ -68,7 +68,6 @@ header {
 
 header > .wrapper h2 {
     position: relative;
-    padding-bottom: 26px;
     margin: 0;
     font-size: 30px;
     margin-top: 21px;
@@ -87,6 +86,7 @@ header > .wrapper h2 {
     width: 60px;
     height: 4px;
     background-color: #fff;
+    top: 95px;
 }
 
 header .wrapper p {
@@ -285,8 +285,7 @@ section.tabs {
     margin: 0;
 }
 
-.general-styles > h2,
-h3 {
+.general-styles > h2, h3 {
     font-family: "Open Sans";
 }
 
@@ -418,13 +417,13 @@ section.standard {
     width: 64px;
     height: 2px;
     background-color: #ff8b38;
+    top: 34px;
 }
 
 .desc > div > h3 {
     position: relative;
     margin: 0;
     margin-bottom: 25px;
-    padding-bottom: 28px;
     letter-spacing: 0.2px;
 }
 
@@ -459,7 +458,6 @@ section.why-this-awesome {
     text-transform: uppercase;
     position: relative;
     margin-top: 31px;
-    padding-bottom: 17px;
     margin-bottom: 29px;
     letter-spacing: -1.1px;
 }
@@ -492,6 +490,7 @@ p.indent {
     height: 2px;
     background-color: #ff8b38;
     margin: 0 auto;
+    top: 50px;
 }
 
 .items {
@@ -653,7 +652,6 @@ section.gorgeous-prototypes .info-centr > div > h2 {
 .info-centr h2 {
     position: relative;
     margin: 0;
-    padding-bottom: 26px;
     font-size: 36px;
     margin-bottom: 26px;
 }
@@ -676,6 +674,7 @@ section.gorgeous-prototypes .info-centr > div > p {
     height: 2px;
     background-color: #fff;
     margin: 0 auto;
+    top: 46px;
 }
 
 section.gorgeous-prototypes .sub-title-center::after {
