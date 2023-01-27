@@ -209,6 +209,7 @@ button {
     padding: 16px 134px;
     position: absolute;
     bottom: 0;
+    width: 100%;
 }
 
 .social-panel {
